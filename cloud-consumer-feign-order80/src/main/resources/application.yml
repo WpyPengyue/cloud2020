@@ -11,3 +11,7 @@ eureka:
 ribbon:
   ReadTimeout: 5000
   ConnectTimout: 5000
+logging:
+  level:
+    # feign 日志以什么级别监控哪个接口
+    com.wpy.springcloud.service.PaymentFeignService: debug
