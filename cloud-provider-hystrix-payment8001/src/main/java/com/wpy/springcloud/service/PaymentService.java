@@ -17,7 +17,7 @@ public class PaymentService {
             @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds", value="3000")
     })
     public String paymentInfo_TimeOut(Integer id){
-        int  time = 1;
+        int  time = 2;
 //        int age = 10 / 0;
         try {
             TimeUnit.SECONDS.sleep(time);
