@@ -12,3 +12,7 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml  #指定格式的配置
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.config.file-extension}
+# nacos-config-client-dev.yaml
+# nacos-config-client-test.yaml
