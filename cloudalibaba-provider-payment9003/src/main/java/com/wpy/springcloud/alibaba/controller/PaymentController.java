@@ -18,8 +18,8 @@ public class PaymentController {
     public static HashMap<Long, Payment> map = new HashMap<>();
     static {
         map.put(1L,new Payment(1L,"1111"));
-        map.put(1L,new Payment(2L,"2222"));
-        map.put(1L,new Payment(3L,"3333"));
+        map.put(2L,new Payment(2L,"2222"));
+        map.put(3L,new Payment(3L,"3333"));
     }
 
 
